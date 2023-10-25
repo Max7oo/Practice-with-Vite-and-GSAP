@@ -1,0 +1,65 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkblue);
+    border-radius: 20px;
+    padding: 10px 25px
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: var(--lightgreen);
+    gap: 25px;
+    margin: 0;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav ul img {
+    width: 25px;
+}
+
+.toggle {
+    display: flex;
+}
+
+nav ul button {
+    background-color: var(--lightgreen);
+    color: var(--darkblue);
+    border-radius: 15px;
+}
+
+nav ul button a {
+    color: var(--darkblue);
+}
+
+nav ul input {
+    border: 0;
+    border-radius: 15px;
+    background-color: var(--darkblue);
+    color: var(--lightgreen);
+    padding: 10px;
+}
+
+nav ul span {
+    display: flex;
+    align-items: center;
+}
+
+.transition {
+    height: 0vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    top: 0;
+    z-index: 100;
+}

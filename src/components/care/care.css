@@ -1,0 +1,64 @@
+.care {
+    align-items: center;
+}
+.care-image {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.care-image-people {
+    width: 80%;
+    border-radius: 25px;
+    visibility: hidden;
+    opacity: 0;
+    margin-right: 100%;
+}
+
+.care-text {
+    width: 50%;
+}
+
+.care-text-story {
+    width: 80%;
+    line-height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.no-risk, .simple-onboarding, .high-end-service {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.care-title-card {
+    position: relative;
+    z-index: 1;
+    background-color: var(--green);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+.care-title-card span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.care-title-card span img {
+    width: 25px;
+}
+
+.care-text-card {
+    position: relative;
+    background-color: var(--green);
+    z-index: 0;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: -75px;
+    padding: 25px;
+    overflow: hidden;
+    transition: height 0.4s ease;
+}

@@ -1,0 +1,107 @@
+#contact {
+    margin: 0;
+    margin-top: -10px;
+    width: 100%;
+    background-color: var(--darkblue);
+}
+
+.contact {
+    width: 100%;
+    padding: 100px 10% 100px 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--lightgreen);
+    border-radius: 0 0 25px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form label {
+    display: block;
+}
+
+.contact-info {
+    margin-left: 50px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info img {
+    padding: 15px;
+}
+
+.contact-info a {
+    color: var(--funkygreen);
+}
+
+.chat-to-us, .visit-us, .call-us {
+    display: flex;
+    align-items: start;
+    margin-bottom: 25px;
+    transform: translateY(100%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-right: 50px;
+    background-color: var(--green);
+    border-radius: 25px;
+    transform: translateY(25%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* .contact-form-title, .contact-form-text, .contact-form-input {
+    transform: translateY(100%);
+    visibility: hidden;
+    opacity: 0;
+} */
+
+.contact-form form {
+    padding: 50px;
+}
+
+.contact-form form input {
+    height: 50px;
+}
+
+.contact-form form input, .contact-form form textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--darkblue);
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contact-form form input::placeholder, .contact-form form textarea::placeholder {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: var(--darkblue);
+}
+
+.contact-form form input:last-child {
+    background-color: var(--darkblue);
+    border-radius: 25px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: var(--lightgreen);
+}
+
+.contact-form-img {
+    min-width: 40%;
+    background-image: url("../../assets/helpdesk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 25px 25px 0px;
+}

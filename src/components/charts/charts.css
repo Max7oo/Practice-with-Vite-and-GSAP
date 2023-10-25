@@ -1,0 +1,53 @@
+.charts {
+    display: grid;
+    width: 100%;
+    grid-template-columns: calc(50% - 25px) calc(50% - 25px); 
+    grid-template-rows: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-areas: 
+    "title line-chart"
+    "text bar-chart"
+}
+
+.charts-title {
+    position: relative;
+    grid-area: title;
+    width: 430px;
+    line-height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.charts-text {
+    position: relative;
+    grid-area: text;
+    width: 430px;
+    line-height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.charts-title h2:last-child {
+    text-align: end;
+}
+
+.line-chart {
+    position: relative;
+    grid-area: line-chart;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: var(--yellow);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.bar-chart {
+    position: relative;
+    grid-area: bar-chart;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: var(--funkygreen);
+    visibility: hidden;
+    opacity: 0;
+}

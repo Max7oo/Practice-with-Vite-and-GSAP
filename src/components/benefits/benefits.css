@@ -1,0 +1,74 @@
+.benefits {
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits-business {
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    width: 725px;
+    /* background-color: var(--green); */
+    background-image: url("../../assets/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.cls-1 {
+    fill: red;
+    width: 100%;
+}
+
+.benefits-business-cta {
+    position: absolute;
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    top: -15px;
+    right: -15px;
+    background-color: var(--yellow);
+    border: 15px solid var(--lightgreen);
+    border-radius: 50%;
+    transition: transform 330ms ease-in-out;
+    display: flex;
+    cursor: pointer;
+}
+
+.benefits-business-cta:hover {
+    transform: translate(25px, -25px);
+    transition: transform 330ms ease-in-out;
+}
+
+.benefits-business-cta-img {
+    rotate: -45deg;
+}
+
+.benefits-finance {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    width: 60%;
+    background: linear-gradient(to right,var(--lightgreen),var(--green));
+    border-radius: 25px;
+    /* padding: 25px; */
+}
+
+.benefits-finance-spacer {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    background-image: url(../../assets/apple.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--funkygreen);
+    border-radius: 25px;
+}
+
+.benefits-finance-text {
+    padding: 50px ;
+}

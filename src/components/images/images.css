@@ -1,0 +1,12 @@
+#images {
+    margin-left: -25%;
+}
+
+.images {
+    white-space: nowrap;
+}
+
+.images-slider {
+    transform: translateX(100%);
+    display: inline-block;
+}
